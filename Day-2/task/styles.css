@@ -1,0 +1,188 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* UNIVERSAL SELECTOR: Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLE */
+
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.container {
+  /* width: 600px; */
+  /* margin: 0 auto; */
+  background-color: #e9ecef;
+  height: 1200px;
+}
+
+/* HEADER */
+.main-header {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+
+  height: 20px;
+  padding: 35px 60px;
+  gap: 24px;
+  background-color: #f8f9fa;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  /* justify-content: flex-end; */
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav-list li:first-child .main-nav-link {
+  font-weight: bold;
+}
+
+.main-nav-list li:last-child {
+  margin-left: auto;
+}
+
+.contact-me-btn {
+  /* margin-left: auto;
+  color: green; */
+
+  text-decoration: none;
+  background-color: #1f2937;
+  color: white;
+  padding: 0.55rem 1.8rem;
+  border-radius: 10px;
+  margin-left: auto;
+
+  font-weight: bold;
+}
+
+/* CANVAS */
+.canvas {
+  background-color: white;
+  width: 800px;
+  /* height: 450px; */
+  margin: 5em auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 20px 50px 0 #00000025;
+  border-radius: 8px;
+}
+
+.canvas-inner {
+  width: 700px;
+  /* height: 00px; */
+  /* margin: 5em auto; */
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* INTRO */
+
+h1 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 24px;
+  line-height: 1.6em;
+}
+
+.intro-text {
+  text-align: justify;
+}
+
+.cv-download a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.cv-download img {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 0.55rem 2.2rem;
+  background-color: #1f2937;
+  color: #ffffff;
+  border-radius: 9999px;
+  font-size: 1rem;
+  text-decoration: none;
+
+  margin-bottom: 16px;
+}
+
+.contact-download {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.social-svgs {
+  width: 40px;
+}
+
+/* PROFILE */
+h2 {
+  font-size: 20px;
+}
+
+.profile-card {
+  box-shadow: 0 20px 50px 0 #00000025;
+  border-radius: 8px;
+  text-align: center;
+  height: 370px;
+  /* width: 300px; */
+  margin-top: 42px;
+  /* margin: 0 auto; */
+  /* margin-top: 12px; */
+}
+
+.profile-card img {
+  /* width: 100%; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 8px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  /* padding-bottom: 8px; */
+}

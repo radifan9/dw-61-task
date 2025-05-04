@@ -1,0 +1,101 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* UNIVERSAL SELECTOR: Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLE */
+
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* INTRO */
+
+h1 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 24px;
+  line-height: 1.6em;
+}
+
+.cv-download a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.cv-download img {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 0.55rem 2.2rem;
+  background-color: #1f2937;
+  color: #ffffff;
+  border-radius: 9999px;
+  font-size: 1rem;
+  text-decoration: none;
+
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-svgs {
+  width: 40px;
+}
+
+/* PROFILE */
+h2 {
+  font-size: 20px;
+}
+
+.profile-card {
+  box-shadow: 0 20px 50px 0 #00000025;
+  border-radius: 8px;
+  text-align: center;
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.profile-card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.profile-info p {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
